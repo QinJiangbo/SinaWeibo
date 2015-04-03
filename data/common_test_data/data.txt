@@ -1,0 +1,662 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>热门微博</title>
+<link href="http://img.t.sinajs.cn/t4/appstyle/square/css/pages/square/square_common.css?version=913a730269cc1c91_420_4" type="text/css" rel="stylesheet" charset="utf-8" />
+<link href="http://img.t.sinajs.cn/t4/appstyle/square/skin/skin001/skin.css?version=913a730269cc1c91_420_4" type="text/css" rel="stylesheet" charset="utf-8" />
+<script type="text/javascript">
+	var $CONFIG = {};
+	$CONFIG['setCover'] = 1;//ie6hack
+	$CONFIG['allowConnect'] = 'false';
+	$CONFIG['version'] = '913a730269cc1c91';
+	$CONFIG['bigpipe'] = 'false';
+	$CONFIG['timeDiff'] = (new Date() - 1395807056000);
+	$CONFIG['lang'] = 'zh-cn';
+	$CONFIG['jsPath'] = 'http://js.t.sinajs.cn/t4/';
+	$CONFIG['cssPath'] = 'http://img.t.sinajs.cn/t4/';
+	$CONFIG['imgPath'] = 'http://img.t.sinajs.cn/t4/';
+	$CONFIG['product'] = 'hotWeibo';
+	$CONFIG['starttime'] = '2012-08-19';
+	$CONFIG['endtime'] = '2014-03-25';
+	$CONFIG['c'] = '';
+	$CONFIG['pagename'] = 'hour';
+	$CONFIG['category'] = '9999';
+	$CONFIG['reason'] = '';
+	$CONFIG['entry'] = 'remenweibo';
+	$CONFIG['pager'] = '';
+	$CONFIG['top'] = '0';
+	var scope = $CONFIG;
+</script>
+<script src=" http://js.t.sinajs.cn/STK/js/gaea.1.14.js" type="text/javascript" ></script>
+<script src="http://js.t.sinajs.cn/t4/yunying/static/zh-cn/V4top_init.js?version=913a730269cc1c91" type="text/javascript" ></script>
+<script src="http://js.t.sinajs.cn/t4/yunying/js/public/topLogin.js?version=913a730269cc1c91" type="text/javascript" ></script>
+</head>
+<body class="B_bodyclass"><div class="W_miniblog">
+	<div class="W_miniblog_fb">
+	<div id="weibo_top_public"></div>
+	<div class="hot_headerbox"> <a href="http://hot.weibo.com" class="hot_logo"></a></div>
+	<!--主体部分-->
+	<div class="W_main">
+		<div class="W_main_bg clearfix">
+		<div class="right_bar" id="pl_plaza_rightTools">
+    <a id="base_scrollToTop" href="javascript:;" class="W_gotop S_line3" style="visibility: visible; " node-type="topNode"><span class="S_line5"><em class="W_ico12 icon_gotop"></em><em class="S_txt2">返回顶部</em></span></a> 
+    </div>
+		<div class="W_main_l"> 
+	<div class="hot_leftnavbox" id = "pl_plaza_selectTaste">
+	<ul>
+	<li class="current"><a href="/daily/20140304?v=9999"><i class="hot_ico_all"></i>全部</a></li>
+	<li ><a href="/?v=6399"><i class="hot_ico_poleRight"></i>神最右</a></li>
+	<li ><a href="/?v=1899"><i class="hot_ico_humor"></i>笑话</a></li>
+ <li ><a href="/?v=6199"><i class="hot_ico_jokes"></i>囧人糗事</a></li>
+	 <li ><a href="/?v=2299"><i class="hot_ico_beauty"></i>美女</a></li>
+ <li ><a href="/?v=1099"><i class="hot_ico_entertain"></i>娱乐</a></li>
+	<li ><a href="/?v=1799"><i class="hot_ico_society"></i>爆料</a></li>
+	<li ><a href="/?v=3099"><i class="hot_ico_korean"></i>韩流</a></li>
+	<li ><a href="/?v=2899"><i class="hot_ico_nicepic"></i>美图</a></li>
+	<li ><a href="/?v=2399"><i class="hot_ico_AC"></i>动漫</a></li>
+	<li ><a href="/?v=1999"><i class="hot_ico_philosophy"></i>情感</a></li>
+	<li ><a href="/?v=1699"><i class="hot_ico_constellation"></i>星座</a></li>
+	<li ><a href="/?v=3299"><i class="hot_ico_movie"></i>电影</a></li>
+	<li ><a href="/?v=2999"><i class="hot_ico_music"></i>音乐</a></li>	
+	<li ><a href="/?v=2499"><i class="hot_ico_film"></i>影视</a></li>
+	<li ><a href="/?v=1399"><i class="hot_ico_sports"></i>体育</a></li>
+	<li ><a href="/?v=2599"><i class="hot_ico_travel"></i>旅行</a></li>
+	<li ><a href="/daily/20140304?v=1199"><i class="hot_ico_video"></i>视频</a></li>
+	<li ><a href="/?v=2699"><i class="hot_ico_food"></i>美食</a></li>
+	<li ><a href="/?v=2799"><i class="hot_ico_pet"></i>萌宠</a></li>
+	<li ><a href="/?v=1299"><i class="hot_ico_finance"></i>财经</a></li>
+	<li ><a href="/?v=2099"><i class="hot_ico_science"></i>科技</a></li>
+	<li ><a href="/?v=1599"><i class="hot_ico_fashion"></i>时尚</a></li>
+	<li ><a href="/?v=2199"><i class="hot_ico_health"></i>健康</a></li>
+	<li ><a href="/?v=1499"><i class="hot_ico_culture"></i>文化</a></li>
+	</ul>
+</div>
+		</div>
+		<div class="W_main_a" id="pl_plaza_hotWeiboFeed">
+	<div class="W_main_c"> 
+	<div class="hot_tagnav" node-type="tagNav">
+		  <a href="http://hot.weibo.com?v=9999" node-type="listbyhour">小时榜</a>
+  <i class="v_line">|</i>
+	  <a href="/hour?v=9999">24小时榜</a>
+  <i class="v_line">|</i>
+  <a href="/week?v=9999">周榜</a>
+  <i class="v_line">|</i>
+  <a href="/month?v=9999">月榜</a>
+  <i class="v_line">|</i>
+  <a href="javascript:void(0);" class="down_area cur" action-type="daily">03月04日<em class="hot_icon_date"></em></a>
+		</div>
+	<!--feed-->
+<div class="WB_feed" node-type="feed_list" action-data="mids=3684450065943294,3684327365738067,3684507674504323,3684340292377596,3684313583290911,3684224265405862,3684494391080500,3684511822907272,3684525630119326,3684548321259388" type="d" v="9999" date="20140304" cur_order="0">
+ 	 <!--top标题-->
+ <div class="hot_feed_top_tit">
+  <h1 class="hot_tit_top"> <span class="txt_top">TOP 1</span> </h1>
+ </div>
+ <!--//top标题-->
+	 <div class="WB_feed_type SW_fun type_intimate feed_list" action-type="feed_list_item" mid="3684450065943294" midext="AzqVMoW7A">
+ <div class="WB_feed_datail S_line2 clearfix">
+ <div class="WB_face"> <a href="http://weibo.com/abaoshixiong" target="_blank" ><img src="http://tp4.sinaimg.cn/1458470903/50/5683455276/1" alt="烧伤超人阿宝" usercard="id=1458470903" class="W_face_radius" /></a> </div>
+ <div class="WB_detail">
+  <div class="WB_info"><a class="WB_name S_func1" target="_blank" usercard="id=1458470903" href="http://weibo.com/abaoshixiong" nick-name="烧伤超人阿宝" title="烧伤超人阿宝">烧伤超人阿宝</a><a href="http://verified.weibo.com/verify" target="_blank"><i class="W_ico16 approve" title="新浪个人认证 "></i></a></div>
+  <div class="WB_text" node-type="feed_list_content">开微博那么久，极少张嘴求人。今天，求大家将这段视频广为转发。正义会迟到，但绝不会缺席！绝！不！会！<a href="http://t.cn/8FeIy0B" title="国家立法要加大力度.mpg" target="_blank" action-type="feed_list_media_video" action-data="type=1&title=国家立法要加大力度.mpg&short_url=http://t.cn/8FeIy0B&full_url=http://yuntv.letv.com/bcloud.html?uu=80146db3b5&url_type=1&pos=1&vu=63d4a08878&object_type=video" >http://t.cn/8FeIy0B<span title="视频" class="W_ico16 icon_sw_movie"></span></a></div>
+ <ul class="WB_media_list clearfix" node-type="feed_list_media_prev">
+  <li action-type="feed_list_media_video" action-data="title=国家立法要加大力度.mpg&short_url=http://t.cn/8FeIy0B&full_url=http://yuntv.letv.com/bcloud.html?uu=80146db3b5&url_type=1&pos=1&vu=63d4a08878&object_type=video">
+ <img width="120" height="80" alt="" xxxx="yayyyyfaysyy" src="http://i2.letvimg.com/yunzhuanma/201403/04/1a3b0da3f24370c8d1ad2999ede46459/thumb/2.jpg"><span class="video_play"></span></li>
+  </ul>
+ <div class="WB_media_expand SW_fun2 S_line1 S_bg1" node-type="feed_list_media_disp" style="display: none;"></div>
+  <div class="WB_func clearfix">
+  <div class="WB_handle">
+  <a title="赞" action-type="feed_list_like" action-data="uid=1458470903&mid=3684450065943294&page=1&count=4&cuid=2667587371" href="javascript:void(0);"><em class="W_ico20 icon_praised_b"></em>(<span action-type="like_count">18926</span>)</a><em class="S_txt3">|</em>
+  <a class="S_func2" action-data="allowForward=1&url=http://weibo.com/1458470903/AzqVMoW7A&mid=3684450065943294&name=烧伤超人阿宝&uid=1458470903&category=9999" node-type="normalForward" action-type="feed_list_forward" href="javascript:void(0);">转发(137732)</a><em class="S_txt3">|</em><a class="S_func2" action-type="feed_list_favorite" href="javascript:void(0);">收藏</a><em class="S_txt3">|</em>
+  <a class="S_func2" action-data="category=9999" action-type="feed_list_comment" href="javascript:void(0);">评论(24330)</a>
+  </div>
+  <div class="WB_from S_txt3"> <a class="S_func2 WB_time" href="http://weibo.com/1458470903/AzqVMoW7A" target="_blank">3月4日 17:20</a>来自<a href="http://app.weibo.com/t/feed/9ksdit" rel="nofollow">iPhone客户端</a></div>
+  </div>
+  <div class="WB_media_expand repeat S_line1 S_bg4" style="display:none;" node-type="feed_list_repeat"></div>
+  
+ <!--温度计栏-->
+  <div class="WB_func hot_feed_therm clearfix">
+  <div class="hot_thermometer therm_noclick" id="therm">
+  <div class="therm_bg clearfix" id="therm_bg" style="background-position:-122px 0"> 
+ <div class="therm_head"></div>
+ <div class="therm_body" id="therm_body">161280°C</div>
+  </div>
+ </div>
+  </div>
+  <!--//温度计栏-->
+ </div>
+ </div>
+ </div>
+	 	 <!--top标题-->
+ <div class="hot_feed_top_tit">
+  <h1 class="hot_tit_top"> <span class="txt_top">TOP 2</span> </h1>
+ </div>
+ <!--//top标题-->
+	 <div class="WB_feed_type SW_fun type_intimate feed_list" action-type="feed_list_item" mid="3684327365738067" midext="AznJSo4Jt">
+ <div class="WB_feed_datail S_line2 clearfix">
+ <div class="WB_face"> <a href="http://weibo.com/xinlangjiangsu" target="_blank" ><img src="http://tp3.sinaimg.cn/2259661342/50/22868667421/0" alt="新浪江苏" usercard="id=2259661342" class="W_face_radius" /></a> </div>
+ <div class="WB_detail">
+  <div class="WB_info"><a class="WB_name S_func1" target="_blank" usercard="id=2259661342" href="http://weibo.com/xinlangjiangsu" nick-name="新浪江苏" title="新浪江苏">新浪江苏</a><a href="http://verified.weibo.com/verify" target="_blank"><i class="W_ico16 approve_co" title="新浪机构认证"></i></a></div>
+  <div class="WB_text" node-type="feed_list_content">【政协委员诊断被打女护士为瘫痪 呼吁立法保护】委员温建民谈及受伤护士陈星羽，“我们去了南京，到病房看过她...另外还给她做了诊断：就是瘫痪。”委员还称：“现在两个打人者居然还没拘留。我们去当地的感觉是，对方势力很大，卫生部门感受到无形的压力，其他部门都不积极。”<a target="_blank" action-type="feed_list_url" href="http://t.cn/8FgmTSK">http://t.cn/8FgmTSK</a></div>
+ <ul class="WB_media_list clearfix" node-type="feed_list_media_prev">
+  <li><div class="chePicMin S_bg2 bigcursor" suda-data="key=feed_image_click&value=image_zoomin" action-data="uid=2259661342&mid=3684327365738067" action-type="feed_list_media_img"><img class="bigcursor" alt="" src="http://ww3.sinaimg.cn/thumbnail/86afb21egw1ee3g96vkrej20c80gadge.jpg" node-type="feed_list_media_bgimg"><img class="loading_gif" src="http://img.t.sinajs.cn/t5/style/images/common/loading.gif" style="left: 39.5px; top: 52px; display: none;"></div></li>
+ </ul>
+ <div class="WB_media_expand SW_fun2 S_line1 S_bg1" node-type="feed_list_media_disp" style="display: none;"></div>
+  <div class="WB_func clearfix">
+  <div class="WB_handle">
+  <a title="赞" action-type="feed_list_like" action-data="uid=2259661342&mid=3684327365738067&page=1&count=4&cuid=2667587371" href="javascript:void(0);"><em class="W_ico20 icon_praised_b"></em>(<span action-type="like_count">12095</span>)</a><em class="S_txt3">|</em>
+  <a class="S_func2" action-data="allowForward=1&url=http://weibo.com/2259661342/AznJSo4Jt&mid=3684327365738067&name=新浪江苏&uid=2259661342&pid=86afb21egw1ee3g96vkrej20c80gadge&category=9999" node-type="normalForward" action-type="feed_list_forward" href="javascript:void(0);">转发(74853)</a><em class="S_txt3">|</em><a class="S_func2" action-type="feed_list_favorite" href="javascript:void(0);">收藏</a><em class="S_txt3">|</em>
+  <a class="S_func2" action-data="category=9999" action-type="feed_list_comment" href="javascript:void(0);">评论(21640)</a>
+  </div>
+  <div class="WB_from S_txt3"> <a class="S_func2 WB_time" href="http://weibo.com/2259661342/AznJSo4Jt" target="_blank">3月4日 09:12</a>来自<a href="http://weibo.com/" rel="nofollow">新浪微博</a></div>
+  </div>
+  <div class="WB_media_expand repeat S_line1 S_bg4" style="display:none;" node-type="feed_list_repeat"></div>
+  
+ <!--温度计栏-->
+  <div class="WB_func hot_feed_therm clearfix">
+  <div class="hot_thermometer therm_noclick" id="therm">
+  <div class="therm_bg clearfix" id="therm_bg" style="background-position:-122px 0"> 
+ <div class="therm_head"></div>
+ <div class="therm_body" id="therm_body">84961°C</div>
+  </div>
+ </div>
+  </div>
+  <!--//温度计栏-->
+ </div>
+ </div>
+ </div>
+	 	 <!--top标题-->
+ <div class="hot_feed_top_tit">
+  <h1 class="hot_tit_top"> <span class="txt_top">TOP 3</span> </h1>
+ </div>
+ <!--//top标题-->
+	 <div class="WB_feed_type SW_fun type_intimate feed_list" action-type="feed_list_item" mid="3684507674504323" midext="AzsqHiTMn">
+ <div class="WB_feed_datail S_line2 clearfix">
+ <div class="WB_face"> <a href="http://weibo.com/u/1291843462" target="_blank" ><img src="http://tp3.sinaimg.cn/1291843462/50/5688009680/1" alt="魏晨" usercard="id=1291843462" class="W_face_radius" /></a> </div>
+ <div class="WB_detail">
+  <div class="WB_info"><a class="WB_name S_func1" target="_blank" usercard="id=1291843462" href="http://weibo.com/u/1291843462" nick-name="魏晨" title="魏晨">魏晨</a><a href="http://verified.weibo.com/verify" target="_blank"><i class="W_ico16 approve" title="新浪个人认证 "></i></a></div>
+  <div class="WB_text" node-type="feed_list_content">那时候天总是很蓝，日子总过得太慢。 你总说毕业遥遥无期，转眼就各奔东西…</div>
+ <ul class="WB_media_list clearfix" node-type="feed_list_media_prev">
+  <li><div class="chePicMin S_bg2 bigcursor" suda-data="key=feed_image_click&value=image_zoomin" action-data="uid=1291843462&mid=3684507674504323" action-type="feed_list_media_img"><img class="bigcursor" alt="" src="http://ww1.sinaimg.cn/thumbnail/4cfff786jw1ee40wgkqcbj20hs0np0y2.jpg" node-type="feed_list_media_bgimg"><img class="loading_gif" src="http://img.t.sinajs.cn/t5/style/images/common/loading.gif" style="left: 39.5px; top: 52px; display: none;"></div></li>
+  </ul>
+ <div class="WB_media_expand SW_fun2 S_line1 S_bg1" node-type="feed_list_media_disp" style="display: none;"></div>
+  <div class="WB_func clearfix">
+  <div class="WB_handle">
+  <a title="赞" action-type="feed_list_like" action-data="uid=1291843462&mid=3684507674504323&page=1&count=4&cuid=2667587371" href="javascript:void(0);"><em class="W_ico20 icon_praised_b"></em>(<span action-type="like_count">69211</span>)</a><em class="S_txt3">|</em>
+  <a class="S_func2" action-data="allowForward=1&url=http://weibo.com/1291843462/AzsqHiTMn&mid=3684507674504323&name=魏晨&uid=1291843462&pid=4cfff786jw1ee40wgkqcbj20hs0np0y2&category=9999" node-type="normalForward" action-type="feed_list_forward" href="javascript:void(0);">转发(60392)</a><em class="S_txt3">|</em><a class="S_func2" action-type="feed_list_favorite" href="javascript:void(0);">收藏</a><em class="S_txt3">|</em>
+  <a class="S_func2" action-data="category=9999" action-type="feed_list_comment" href="javascript:void(0);">评论(25807)</a>
+  </div>
+  <div class="WB_from S_txt3"> <a class="S_func2 WB_time" href="http://weibo.com/1291843462/AzsqHiTMn" target="_blank">3月4日 21:09</a>来自<a href="http://app.weibo.com/t/feed/9ksdit" rel="nofollow">iPhone客户端</a></div>
+  </div>
+  <div class="WB_media_expand repeat S_line1 S_bg4" style="display:none;" node-type="feed_list_repeat"></div>
+  
+ <!--温度计栏-->
+  <div class="WB_func hot_feed_therm clearfix">
+  <div class="hot_thermometer therm_noclick" id="therm">
+  <div class="therm_bg clearfix" id="therm_bg" style="background-position:-122px 0"> 
+ <div class="therm_head"></div>
+ <div class="therm_body" id="therm_body">72758°C</div>
+  </div>
+ </div>
+  </div>
+  <!--//温度计栏-->
+ </div>
+ </div>
+ </div>
+	 	 <!--top标题-->
+ <div class="hot_feed_top_tit">
+  <h1 class="hot_tit_top hot_tit_topgray"> <span class="txt_top txt_top_gray">TOP 4</span> </h1>
+ </div>
+ <!--//top标题-->
+	 <div class="WB_feed_type SW_fun type_intimate feed_list" action-type="feed_list_item" mid="3684340292377596" midext="Azo4J9Ywk">
+ <div class="WB_feed_datail S_line2 clearfix">
+ <div class="WB_face"> <a href="http://weibo.com/xuetucao" target="_blank" ><img src="http://tp3.sinaimg.cn/3229125510/50/5674629206/1" alt="小野妹子学吐槽" usercard="id=3229125510" class="W_face_radius" /></a> </div>
+ <div class="WB_detail">
+  <div class="WB_info"><a class="WB_name S_func1" target="_blank" usercard="id=3229125510" href="http://weibo.com/xuetucao" nick-name="小野妹子学吐槽" title="小野妹子学吐槽">小野妹子学吐槽</a></div>
+  <div class="WB_text" node-type="feed_list_content">听朋友说，人在小学五年级、初中二年级、高中二年级时着迷的东西，即使一时淡忘，也很容易重燃兴趣，再度狂热。这么说来，我应该随时可以捡起红白机、民谣吉他和武侠小说……大家也不妨一起回忆一下。</div>
+ <ul class="WB_media_list clearfix" node-type="feed_list_media_prev">
+  </ul>
+ <div class="WB_media_expand SW_fun2 S_line1 S_bg1" node-type="feed_list_media_disp" style="display: none;"></div>
+  <div class="WB_func clearfix">
+  <div class="WB_handle">
+  <a title="赞" action-type="feed_list_like" action-data="uid=3229125510&mid=3684340292377596&page=1&count=4&cuid=2667587371" href="javascript:void(0);"><em class="W_ico20 icon_praised_b"></em>(<span action-type="like_count">2931</span>)</a><em class="S_txt3">|</em>
+  <a class="S_func2" action-data="allowForward=1&url=http://weibo.com/3229125510/Azo4J9Ywk&mid=3684340292377596&name=小野妹子学吐槽&uid=3229125510&category=9999" node-type="normalForward" action-type="feed_list_forward" href="javascript:void(0);">转发(35547)</a><em class="S_txt3">|</em><a class="S_func2" action-type="feed_list_favorite" href="javascript:void(0);">收藏</a><em class="S_txt3">|</em>
+  <a class="S_func2" action-data="category=9999" action-type="feed_list_comment" href="javascript:void(0);">评论(7506)</a>
+  </div>
+  <div class="WB_from S_txt3"> <a class="S_func2 WB_time" href="http://weibo.com/3229125510/Azo4J9Ywk" target="_blank">3月4日 10:04</a>来自<a href="http://weibo.com/" rel="nofollow">新浪微博</a></div>
+  </div>
+  <div class="WB_media_expand repeat S_line1 S_bg4" style="display:none;" node-type="feed_list_repeat"></div>
+  
+ <!--温度计栏-->
+  <div class="WB_func hot_feed_therm clearfix">
+  <div class="hot_thermometer therm_noclick" id="therm">
+  <div class="therm_bg clearfix" id="therm_bg" style="background-position:-122px 0"> 
+ <div class="therm_head"></div>
+ <div class="therm_body" id="therm_body">69161°C</div>
+  </div>
+ </div>
+  </div>
+  <!--//温度计栏-->
+ </div>
+ </div>
+ </div>
+	 	 <!--top标题-->
+ <div class="hot_feed_top_tit">
+  <h1 class="hot_tit_top hot_tit_topgray"> <span class="txt_top txt_top_gray">TOP 5</span> </h1>
+ </div>
+ <!--//top标题-->
+	 <div class="WB_feed_type SW_fun type_intimate feed_list" action-type="feed_list_item" mid="3684313583290911" midext="AznnEdO7d">
+ <div class="WB_feed_datail S_line2 clearfix">
+ <div class="WB_face"> <a href="http://weibo.com/cctvxinwen" target="_blank" ><img src="http://tp4.sinaimg.cn/2656274875/50/5662046341/1" alt="央视新闻" usercard="id=2656274875" class="W_face_radius" /></a> </div>
+ <div class="WB_detail">
+  <div class="WB_info"><a class="WB_name S_func1" target="_blank" usercard="id=2656274875" href="http://weibo.com/cctvxinwen" nick-name="央视新闻" title="央视新闻">央视新闻</a><a href="http://verified.weibo.com/verify" target="_blank"><i class="W_ico16 approve_co" title="新浪机构认证"></i></a></div>
+  <div class="WB_text" node-type="feed_list_content">【央视专访：当一名特警面对五名暴恐凶徒】他是昆明市公安局官渡分局的一名反恐特警，在3月1日那个黑夜，面对五名暴徒疯狂砍杀无辜群众的暴行，鸣枪示警无效后，他果断采取措施，15秒内击毙了4名暴徒、击伤1名，&quot;如果我不把他们击毙，可能会造成更大的伤亡&quot;。<a href="http://t.cn/8FgEkKB" title="[视频]独家专访击毙暴恐分子的特警" target="_blank" action-type="feed_list_media_video" action-data="type=1&title=[视频]独家专访击毙暴恐分子的特警&short_url=http://t.cn/8FgEkKB&full_url=http://news.cntv.cn/2014/03/04/VIDE1393889762090582.shtml" >http://t.cn/8FgEkKB<span title="视频" class="W_ico16 icon_sw_movie"></span></a>戳视频，向特警致敬！</div>
+ <ul class="WB_media_list clearfix" node-type="feed_list_media_prev">
+  <li>
+ <div class="list_pic_list " >
+ <ul class="pic_list clearfix " node-type="fl_pic_list" action-data="uid=2656274875&pic_ids=9e5389bbtw1ee3eog2h5yj20xx0p4n2q,9e5389bbtw1ee3eog5xw1j20x40p2dja,9e5389bbtw1ee3eogca5bj20x50p30w8,9e5389bbtw1ee3eogvlglj20x30oy0w7,9e5389bbtw1ee3eogw0q3j20x80p2adg,9e5389bbtw1ee3eoh03yaj20yr0px0wi,9e5389bbtw1ee3eohj9aoj20x80p177r,9e5389bbtw1ee3eohsup2j20x70olq66,9e5389bbtw1ee3eoi3lmlj20x50oyadd&mid=3684313583290911">
+  <li>
+  <img alt="" class="bigcursor" src="http://ww1.sinaimg.cn/square/9e5389bbtw1ee3eog2h5yj20xx0p4n2q.jpg" action-data="pic_id=9e5389bbtw1ee3eog2h5yj20xx0p4n2q" action-type="fl_pics">
+ </li>
+  <li>
+  <img alt="" class="bigcursor" src="http://ww4.sinaimg.cn/square/9e5389bbtw1ee3eog5xw1j20x40p2dja.jpg" action-data="pic_id=9e5389bbtw1ee3eog5xw1j20x40p2dja" action-type="fl_pics">
+ </li>
+  <li>
+  <img alt="" class="bigcursor" src="http://ww3.sinaimg.cn/square/9e5389bbtw1ee3eogca5bj20x50p30w8.jpg" action-data="pic_id=9e5389bbtw1ee3eogca5bj20x50p30w8" action-type="fl_pics">
+ </li>
+  <li>
+  <img alt="" class="bigcursor" src="http://ww1.sinaimg.cn/square/9e5389bbtw1ee3eogvlglj20x30oy0w7.jpg" action-data="pic_id=9e5389bbtw1ee3eogvlglj20x30oy0w7" action-type="fl_pics">
+ </li>
+  <li>
+  <img alt="" class="bigcursor" src="http://ww3.sinaimg.cn/square/9e5389bbtw1ee3eogw0q3j20x80p2adg.jpg" action-data="pic_id=9e5389bbtw1ee3eogw0q3j20x80p2adg" action-type="fl_pics">
+ </li>
+  <li>
+  <img alt="" class="bigcursor" src="http://ww1.sinaimg.cn/square/9e5389bbtw1ee3eoh03yaj20yr0px0wi.jpg" action-data="pic_id=9e5389bbtw1ee3eoh03yaj20yr0px0wi" action-type="fl_pics">
+ </li>
+  <li>
+  <img alt="" class="bigcursor" src="http://ww1.sinaimg.cn/square/9e5389bbtw1ee3eohj9aoj20x80p177r.jpg" action-data="pic_id=9e5389bbtw1ee3eohj9aoj20x80p177r" action-type="fl_pics">
+ </li>
+  <li>
+  <img alt="" class="bigcursor" src="http://ww3.sinaimg.cn/square/9e5389bbtw1ee3eohsup2j20x70olq66.jpg" action-data="pic_id=9e5389bbtw1ee3eohsup2j20x70olq66" action-type="fl_pics">
+ </li>
+  <li>
+  <img alt="" class="bigcursor" src="http://ww3.sinaimg.cn/square/9e5389bbtw1ee3eoi3lmlj20x50oyadd.jpg" action-data="pic_id=9e5389bbtw1ee3eoi3lmlj20x50oyadd" action-type="fl_pics">
+ </li>
+  </ul>
+ </div>
+ </li>
+  </ul>
+ <div class="WB_media_expand SW_fun2 S_line1 S_bg1" node-type="feed_list_media_disp" style="display: none;"></div>
+  <div class="WB_func clearfix">
+  <div class="WB_handle">
+  <a title="赞" action-type="feed_list_like" action-data="uid=2656274875&mid=3684313583290911&page=1&count=4&cuid=2667587371" href="javascript:void(0);"><em class="W_ico20 icon_praised_b"></em>(<span action-type="like_count">17654</span>)</a><em class="S_txt3">|</em>
+  <a class="S_func2" action-data="allowForward=1&url=http://weibo.com/2656274875/AznnEdO7d&mid=3684313583290911&name=央视新闻&uid=2656274875&pid=9e5389bbtw1ee3eog2h5yj20xx0p4n2q&category=9999" node-type="normalForward" action-type="feed_list_forward" href="javascript:void(0);">转发(36500)</a><em class="S_txt3">|</em><a class="S_func2" action-type="feed_list_favorite" href="javascript:void(0);">收藏</a><em class="S_txt3">|</em>
+  <a class="S_func2" action-data="category=9999" action-type="feed_list_comment" href="javascript:void(0);">评论(9890)</a>
+  </div>
+  <div class="WB_from S_txt3"> <a class="S_func2 WB_time" href="http://weibo.com/2656274875/AznnEdO7d" target="_blank">3月4日 08:17</a>来自<a href="http://weibo.com/" rel="nofollow">新浪微博</a></div>
+  </div>
+  <div class="WB_media_expand repeat S_line1 S_bg4" style="display:none;" node-type="feed_list_repeat"></div>
+  
+ <!--温度计栏-->
+  <div class="WB_func hot_feed_therm clearfix">
+  <div class="hot_thermometer therm_noclick" id="therm">
+  <div class="therm_bg clearfix" id="therm_bg" style="background-position:-122px 0"> 
+ <div class="therm_head"></div>
+ <div class="therm_body" id="therm_body">64190°C</div>
+  </div>
+ </div>
+  </div>
+  <!--//温度计栏-->
+ </div>
+ </div>
+ </div>
+	 	 <!--top标题-->
+ <div class="hot_feed_top_tit">
+  <h1 class="hot_tit_top hot_tit_topgray"> <span class="txt_top txt_top_gray">TOP 6</span> </h1>
+ </div>
+ <!--//top标题-->
+	 <div class="WB_feed_type SW_fun type_intimate feed_list" action-type="feed_list_item" mid="3684224265405862" midext="Azl3AmGjk">
+ <div class="WB_feed_datail S_line2 clearfix">
+ <div class="WB_face"> <a href="http://weibo.com/u/1496852380" target="_blank" ><img src="http://tp1.sinaimg.cn/1496852380/50/40047534004/1" alt="崔永元" usercard="id=1496852380" class="W_face_radius" /></a> </div>
+ <div class="WB_detail">
+  <div class="WB_info"><a class="WB_name S_func1" target="_blank" usercard="id=1496852380" href="http://weibo.com/u/1496852380" nick-name="崔永元" title="崔永元">崔永元</a><a href="http://verified.weibo.com/verify" target="_blank"><i class="W_ico16 approve" title="新浪个人认证 "></i></a></div>
+  <div class="WB_text" node-type="feed_list_content">接受那么多记者采访还是发不出来，只好<a action-data="name=人民日报" action-type="usercard" usercard="name=人民日报" namecard="true" nick-name="人民日报" target="_blank" href="http://weibo.com/n/%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5">@人民日报</a>。欧盟退回中国上百批次含转基因成分米制品，说明中国有不少未被国家批准而滥种的水稻。我想问农业部，欧洲人是人，我们就不是人？</div>
+ <ul class="WB_media_list clearfix" node-type="feed_list_media_prev">
+  </ul>
+ <div class="WB_media_expand SW_fun2 S_line1 S_bg1" node-type="feed_list_media_disp" style="display: none;"></div>
+  <div class="WB_func clearfix">
+  <div class="WB_handle">
+  <a title="赞" action-type="feed_list_like" action-data="uid=1496852380&mid=3684224265405862&page=1&count=4&cuid=2667587371" href="javascript:void(0);"><em class="W_ico20 icon_praised_b"></em>(<span action-type="like_count">33997</span>)</a><em class="S_txt3">|</em>
+  <a class="S_func2" action-data="allowForward=1&url=http://weibo.com/1496852380/Azl3AmGjk&mid=3684224265405862&name=崔永元&uid=1496852380&category=9999" node-type="normalForward" action-type="feed_list_forward" href="javascript:void(0);">转发(54275)</a><em class="S_txt3">|</em><a class="S_func2" action-type="feed_list_favorite" href="javascript:void(0);">收藏</a><em class="S_txt3">|</em>
+  <a class="S_func2" action-data="category=9999" action-type="feed_list_comment" href="javascript:void(0);">评论(18887)</a>
+  </div>
+  <div class="WB_from S_txt3"> <a class="S_func2 WB_time" href="http://weibo.com/1496852380/Azl3AmGjk" target="_blank">3月4日 02:22</a>来自<a href="http://app.weibo.com/t/feed/9ksdit" rel="nofollow">iPhone客户端</a></div>
+  </div>
+  <div class="WB_media_expand repeat S_line1 S_bg4" style="display:none;" node-type="feed_list_repeat"></div>
+  
+ <!--温度计栏-->
+  <div class="WB_func hot_feed_therm clearfix">
+  <div class="hot_thermometer therm_noclick" id="therm">
+  <div class="therm_bg clearfix" id="therm_bg" style="background-position:-122px 0"> 
+ <div class="therm_head"></div>
+ <div class="therm_body" id="therm_body">54583°C</div>
+  </div>
+ </div>
+  </div>
+  <!--//温度计栏-->
+ </div>
+ </div>
+ </div>
+	 	 <!--top标题-->
+ <div class="hot_feed_top_tit">
+  <h1 class="hot_tit_top hot_tit_topgray"> <span class="txt_top txt_top_gray">TOP 7</span> </h1>
+ </div>
+ <!--//top标题-->
+	 <div class="WB_feed_type SW_fun type_intimate feed_list" action-type="feed_list_item" mid="3684494391080500" midext="Azs5h4x5q">
+ <div class="WB_feed_datail S_line2 clearfix">
+ <div class="WB_face"> <a href="http://weibo.com/dreamerjimmy" target="_blank" ><img src="http://tp4.sinaimg.cn/1608574203/50/5684897641/1" alt="夢想家林志穎" usercard="id=1608574203" class="W_face_radius" /></a> </div>
+ <div class="WB_detail">
+  <div class="WB_info"><a class="WB_name S_func1" target="_blank" usercard="id=1608574203" href="http://weibo.com/dreamerjimmy" nick-name="夢想家林志穎" title="夢想家林志穎">夢想家林志穎</a><a href="http://verified.weibo.com/verify" target="_blank"><i class="W_ico16 approve" title="新浪个人认证 "></i></a></div>
+  <div class="WB_text" node-type="feed_list_content">kimi画的正义小小兵义卖包，画的意思是有一群正义小士兵，他们可以可以打败所有的坏人<img type="face" alt="哈哈" title="哈哈" src="http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/6a/laugh.gif" /><img type="face" alt="哈哈" title="哈哈" src="http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/6a/laugh.gif" /></div>
+ <ul class="WB_media_list clearfix" node-type="feed_list_media_prev">
+  <li>
+ <div class="list_pic_list " >
+ <ul class="pic_list clearfix " node-type="fl_pic_list" action-data="uid=1608574203&pic_ids=5fe0e4fbjw1ee3zdio370j20xc18gqdt,5fe0e4fbjw1ee3zdkkc6xj20hs0nuwhz,5fe0e4fbjw1ee3zduasj7j20xc18gal2,5fe0e4fbjw1ee3zdyv4k4j20xc18ggwl,5fe0e4fbjw1ee3ze38o91j20xc18gn71,5fe0e4fbjw1ee3zeb2raij218g0xc48b&mid=3684494391080500">
+  <li>
+  <img alt="" class="bigcursor" src="http://ww1.sinaimg.cn/square/5fe0e4fbjw1ee3zdio370j20xc18gqdt.jpg" action-data="pic_id=5fe0e4fbjw1ee3zdio370j20xc18gqdt" action-type="fl_pics">
+ </li>
+  <li>
+  <img alt="" class="bigcursor" src="http://ww1.sinaimg.cn/square/5fe0e4fbjw1ee3zdkkc6xj20hs0nuwhz.jpg" action-data="pic_id=5fe0e4fbjw1ee3zdkkc6xj20hs0nuwhz" action-type="fl_pics">
+ </li>
+  <li>
+  <img alt="" class="bigcursor" src="http://ww4.sinaimg.cn/square/5fe0e4fbjw1ee3zduasj7j20xc18gal2.jpg" action-data="pic_id=5fe0e4fbjw1ee3zduasj7j20xc18gal2" action-type="fl_pics">
+ </li>
+  <li>
+  <img alt="" class="bigcursor" src="http://ww2.sinaimg.cn/square/5fe0e4fbjw1ee3zdyv4k4j20xc18ggwl.jpg" action-data="pic_id=5fe0e4fbjw1ee3zdyv4k4j20xc18ggwl" action-type="fl_pics">
+ </li>
+  <li>
+  <img alt="" class="bigcursor" src="http://ww2.sinaimg.cn/square/5fe0e4fbjw1ee3ze38o91j20xc18gn71.jpg" action-data="pic_id=5fe0e4fbjw1ee3ze38o91j20xc18gn71" action-type="fl_pics">
+ </li>
+  <li>
+  <img alt="" class="bigcursor" src="http://ww3.sinaimg.cn/square/5fe0e4fbjw1ee3zeb2raij218g0xc48b.jpg" action-data="pic_id=5fe0e4fbjw1ee3zeb2raij218g0xc48b" action-type="fl_pics">
+ </li>
+  </ul>
+ </div>
+ </li>
+  </ul>
+ <div class="WB_media_expand SW_fun2 S_line1 S_bg1" node-type="feed_list_media_disp" style="display: none;"></div>
+  <div class="WB_func clearfix">
+  <div class="WB_handle">
+  <a title="赞" action-type="feed_list_like" action-data="uid=1608574203&mid=3684494391080500&page=1&count=4&cuid=2667587371" href="javascript:void(0);"><em class="W_ico20 icon_praised_b"></em>(<span action-type="like_count">125910</span>)</a><em class="S_txt3">|</em>
+  <a class="S_func2" action-data="allowForward=1&url=http://weibo.com/1608574203/Azs5h4x5q&mid=3684494391080500&name=夢想家林志穎&uid=1608574203&pid=5fe0e4fbjw1ee3zdio370j20xc18gqdt&category=9999" node-type="normalForward" action-type="feed_list_forward" href="javascript:void(0);">转发(16082)</a><em class="S_txt3">|</em><a class="S_func2" action-type="feed_list_favorite" href="javascript:void(0);">收藏</a><em class="S_txt3">|</em>
+  <a class="S_func2" action-data="category=9999" action-type="feed_list_comment" href="javascript:void(0);">评论(20622)</a>
+  </div>
+  <div class="WB_from S_txt3"> <a class="S_func2 WB_time" href="http://weibo.com/1608574203/Azs5h4x5q" target="_blank">3月4日 20:16</a>来自<a href="http://app.weibo.com/t/feed/3G5oUM" rel="nofollow">iPhone 5s</a></div>
+  </div>
+  <div class="WB_media_expand repeat S_line1 S_bg4" style="display:none;" node-type="feed_list_repeat"></div>
+  
+ <!--温度计栏-->
+  <div class="WB_func hot_feed_therm clearfix">
+  <div class="hot_thermometer therm_noclick" id="therm">
+  <div class="therm_bg clearfix" id="therm_bg" style="background-position:-122px 0"> 
+ <div class="therm_head"></div>
+ <div class="therm_body" id="therm_body">54009°C</div>
+  </div>
+ </div>
+  </div>
+  <!--//温度计栏-->
+ </div>
+ </div>
+ </div>
+	 	 <!--top标题-->
+ <div class="hot_feed_top_tit">
+  <h1 class="hot_tit_top hot_tit_topgray"> <span class="txt_top txt_top_gray">TOP 8</span> </h1>
+ </div>
+ <!--//top标题-->
+	 <div class="WB_feed_type SW_fun type_intimate feed_list" action-type="feed_list_item" mid="3684511822907272" midext="Azsxoccju">
+ <div class="WB_feed_datail S_line2 clearfix">
+ <div class="WB_face"> <a href="http://weibo.com/syjessica" target="_blank" ><img src="http://tp2.sinaimg.cn/3547642417/50/5689643081/0" alt="Sy__Jessica" usercard="id=3547642417" class="W_face_radius" /></a> </div>
+ <div class="WB_detail">
+  <div class="WB_info"><a class="WB_name S_func1" target="_blank" usercard="id=3547642417" href="http://weibo.com/syjessica" nick-name="Sy__Jessica" title="Sy__Jessica">Sy__Jessica</a><a href="http://verified.weibo.com/verify" target="_blank"><i class="W_ico16 approve" title="新浪个人认证 "></i></a></div>
+  <div class="WB_text" node-type="feed_list_content">happy birthday my dear sis<img type="face" alt="心" title="心" src="http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/40/hearta_org.gif" /></div>
+ <ul class="WB_media_list clearfix" node-type="feed_list_media_prev">
+  <li>
+ <div class="list_pic_list " >
+ <ul class="pic_list clearfix " node-type="fl_pic_list" action-data="uid=3547642417&pic_ids=d374ba31jw1ee41fuzkgaj20zk0zk7bp,d374ba31jw1ee41g5kk2mj20zk0zkdmt&mid=3684511822907272">
+  <li>
+  <img alt="" class="bigcursor" src="http://ww2.sinaimg.cn/square/d374ba31jw1ee41fuzkgaj20zk0zk7bp.jpg" action-data="pic_id=d374ba31jw1ee41fuzkgaj20zk0zk7bp" action-type="fl_pics">
+ </li>
+  <li>
+  <img alt="" class="bigcursor" src="http://ww4.sinaimg.cn/square/d374ba31jw1ee41g5kk2mj20zk0zkdmt.jpg" action-data="pic_id=d374ba31jw1ee41g5kk2mj20zk0zkdmt" action-type="fl_pics">
+ </li>
+  </ul>
+ </div>
+ </li>
+  </ul>
+ <div class="WB_media_expand SW_fun2 S_line1 S_bg1" node-type="feed_list_media_disp" style="display: none;"></div>
+  <div class="WB_func clearfix">
+  <div class="WB_handle">
+  <a title="赞" action-type="feed_list_like" action-data="uid=3547642417&mid=3684511822907272&page=1&count=4&cuid=2667587371" href="javascript:void(0);"><em class="W_ico20 icon_praised_b"></em>(<span action-type="like_count">38742</span>)</a><em class="S_txt3">|</em>
+  <a class="S_func2" action-data="allowForward=1&url=http://weibo.com/3547642417/Azsxoccju&mid=3684511822907272&name=Sy__Jessica&uid=3547642417&pid=d374ba31jw1ee41fuzkgaj20zk0zk7bp&category=9999" node-type="normalForward" action-type="feed_list_forward" href="javascript:void(0);">转发(15053)</a><em class="S_txt3">|</em><a class="S_func2" action-type="feed_list_favorite" href="javascript:void(0);">收藏</a><em class="S_txt3">|</em>
+  <a class="S_func2" action-data="category=9999" action-type="feed_list_comment" href="javascript:void(0);">评论(17281)</a>
+  </div>
+  <div class="WB_from S_txt3"> <a class="S_func2 WB_time" href="http://weibo.com/3547642417/Azsxoccju" target="_blank">3月4日 21:25</a>来自<a href="http://app.weibo.com/t/feed/8crQy" rel="nofollow">Weico.iPhone</a></div>
+  </div>
+  <div class="WB_media_expand repeat S_line1 S_bg4" style="display:none;" node-type="feed_list_repeat"></div>
+  
+ <!--温度计栏-->
+  <div class="WB_func hot_feed_therm clearfix">
+  <div class="hot_thermometer therm_noclick" id="therm">
+  <div class="therm_bg clearfix" id="therm_bg" style="background-position:-122px 0"> 
+ <div class="therm_head"></div>
+ <div class="therm_body" id="therm_body">50337°C</div>
+  </div>
+ </div>
+  </div>
+  <!--//温度计栏-->
+ </div>
+ </div>
+ </div>
+	 	 <!--top标题-->
+ <div class="hot_feed_top_tit">
+  <h1 class="hot_tit_top hot_tit_topgray"> <span class="txt_top txt_top_gray">TOP 9</span> </h1>
+ </div>
+ <!--//top标题-->
+	 <div class="WB_feed_type SW_fun type_intimate feed_list" action-type="feed_list_item" mid="3684525630119326" midext="AzsTF0v2C">
+ <div class="WB_feed_datail S_line2 clearfix">
+ <div class="WB_face"> <a href="http://weibo.com/u/2995631244" target="_blank" ><img src="http://tp1.sinaimg.cn/2995631244/50/40049661550/1" alt="我与老公的日常" usercard="id=2995631244" class="W_face_radius" /></a> </div>
+ <div class="WB_detail">
+  <div class="WB_info"><a class="WB_name S_func1" target="_blank" usercard="id=2995631244" href="http://weibo.com/u/2995631244" nick-name="我与老公的日常" title="我与老公的日常">我与老公的日常</a><a href="http://club.weibo.com/intro" target="_blank"><i class="W_ico16 ico_club" title="微博达人"></i></a></div>
+  <div class="WB_text" node-type="feed_list_content">主页君，在早上被老婆强行风花雪月之后去上班，结果我.....<img type="face" alt="拜拜" title="拜拜" src="http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/70/88_org.gif" /></div>
+ <ul class="WB_media_list clearfix" node-type="feed_list_media_prev">
+  <li><div class="chePicMin S_bg2 bigcursor" suda-data="key=feed_image_click&value=image_zoomin" action-data="uid=2995631244&mid=3684525630119326" action-type="feed_list_media_img"><img class="bigcursor" alt="" src="http://ww3.sinaimg.cn/thumbnail/b28db48cgw1ee4309os3bj20c55ppdu8.jpg" node-type="feed_list_media_bgimg"><img class="loading_gif" src="http://img.t.sinajs.cn/t5/style/images/common/loading.gif" style="left: 39.5px; top: 52px; display: none;"></div></li>
+  </ul>
+ <div class="WB_media_expand SW_fun2 S_line1 S_bg1" node-type="feed_list_media_disp" style="display: none;"></div>
+  <div class="WB_func clearfix">
+  <div class="WB_handle">
+  <a title="赞" action-type="feed_list_like" action-data="uid=2995631244&mid=3684525630119326&page=1&count=4&cuid=2667587371" href="javascript:void(0);"><em class="W_ico20 icon_praised_b"></em>(<span action-type="like_count">7734</span>)</a><em class="S_txt3">|</em>
+  <a class="S_func2" action-data="allowForward=1&url=http://weibo.com/2995631244/AzsTF0v2C&mid=3684525630119326&name=我与老公的日常&uid=2995631244&pid=b28db48cgw1ee4309os3bj20c55ppdu8&category=9999" node-type="normalForward" action-type="feed_list_forward" href="javascript:void(0);">转发(21757)</a><em class="S_txt3">|</em><a class="S_func2" action-type="feed_list_favorite" href="javascript:void(0);">收藏</a><em class="S_txt3">|</em>
+  <a class="S_func2" action-data="category=9999" action-type="feed_list_comment" href="javascript:void(0);">评论(12946)</a>
+  </div>
+  <div class="WB_from S_txt3"> <a class="S_func2 WB_time" href="http://weibo.com/2995631244/AzsTF0v2C" target="_blank">3月4日 22:20</a>来自<a href="http://weibo.com/" rel="nofollow">新浪微博</a></div>
+  </div>
+  <div class="WB_media_expand repeat S_line1 S_bg4" style="display:none;" node-type="feed_list_repeat"></div>
+  
+ <!--温度计栏-->
+  <div class="WB_func hot_feed_therm clearfix">
+  <div class="hot_thermometer therm_noclick" id="therm">
+  <div class="therm_bg clearfix" id="therm_bg" style="background-position:-122px 0"> 
+ <div class="therm_head"></div>
+ <div class="therm_body" id="therm_body">48976°C</div>
+  </div>
+ </div>
+  </div>
+  <!--//温度计栏-->
+ </div>
+ </div>
+ </div>
+	 	 <!--top标题-->
+ <div class="hot_feed_top_tit">
+  <h1 class="hot_tit_top hot_tit_topgray"> <span class="txt_top txt_top_gray">TOP 10</span> </h1>
+ </div>
+ <!--//top标题-->
+	 <div class="WB_feed_type SW_fun type_intimate feed_list" action-type="feed_list_item" mid="3684548321259388" midext="Aztug5hCI">
+ <div class="WB_feed_datail S_line2 clearfix">
+ <div class="WB_face"> <a href="http://weibo.com/guojingming" target="_blank" ><img src="http://tp3.sinaimg.cn/1188552450/50/40006676792/1" alt="郭敬明" usercard="id=1188552450" class="W_face_radius" /></a> </div>
+ <div class="WB_detail">
+  <div class="WB_info"><a class="WB_name S_func1" target="_blank" usercard="id=1188552450" href="http://weibo.com/guojingming" nick-name="郭敬明" title="郭敬明">郭敬明</a><a href="http://verified.weibo.com/verify" target="_blank"><i class="W_ico16 approve" title="新浪个人认证 "></i></a></div>
+  <div class="WB_text" node-type="feed_list_content">没有人有资格去嘲笑别人与生俱来、无法改变的事情，比如出身，容貌，性别，残疾...当你这么做时，你其实就是站在一面哈哈镜面前，你笑得越开心，镜子里反映出的你就越扭曲越丑陋，越真实。</div>
+ <ul class="WB_media_list clearfix" node-type="feed_list_media_prev">
+  </ul>
+ <div class="WB_media_expand SW_fun2 S_line1 S_bg1" node-type="feed_list_media_disp" style="display: none;"></div>
+  <div class="WB_func clearfix">
+  <div class="WB_handle">
+  <a title="赞" action-type="feed_list_like" action-data="uid=1188552450&mid=3684548321259388&page=1&count=4&cuid=2667587371" href="javascript:void(0);"><em class="W_ico20 icon_praised_b"></em>(<span action-type="like_count">59043</span>)</a><em class="S_txt3">|</em>
+  <a class="S_func2" action-data="allowForward=1&url=http://weibo.com/1188552450/Aztug5hCI&mid=3684548321259388&name=郭敬明&uid=1188552450&category=9999" node-type="normalForward" action-type="feed_list_forward" href="javascript:void(0);">转发(56621)</a><em class="S_txt3">|</em><a class="S_func2" action-type="feed_list_favorite" href="javascript:void(0);">收藏</a><em class="S_txt3">|</em>
+  <a class="S_func2" action-data="category=9999" action-type="feed_list_comment" href="javascript:void(0);">评论(16745)</a>
+  </div>
+  <div class="WB_from S_txt3"> <a class="S_func2 WB_time" href="http://weibo.com/1188552450/Aztug5hCI" target="_blank">3月4日 23:50</a>来自<a href="http://app.weibo.com/t/feed/3G5oUM" rel="nofollow">iPhone 5s</a></div>
+  </div>
+  <div class="WB_media_expand repeat S_line1 S_bg4" style="display:none;" node-type="feed_list_repeat"></div>
+  
+ <!--温度计栏-->
+  <div class="WB_func hot_feed_therm clearfix">
+  <div class="hot_thermometer therm_noclick" id="therm">
+  <div class="therm_bg clearfix" id="therm_bg" style="background-position:-122px 0"> 
+ <div class="therm_head"></div>
+ <div class="therm_body" id="therm_body">45511°C</div>
+  </div>
+ </div>
+  </div>
+  <!--//温度计栏-->
+ </div>
+ </div>
+ </div>
+	 	  <div class="W_loading" node-type="lazyload"><span>正在加载，请稍候...</span></div>
+	 </div>
+<!--/feed-->
+	</div>
+	<div class="W_main_r"> 
+	  <div class="hot_btnbox_setcom" id="setOriginalApp"></div>
+	<div class="hot_weibo clearfix"> <a href="http://weibo.com/wbrmb" target="_blank" ><img class="hot_wbphoto" usercard="id=2257175873" src="http://tp2.sinaimg.cn/2257175873/30/5632125897/0" /></a><a href="http://weibo.com/wbrmb" target="_blank" class="wbname" usercard="id=2257175873">热门微博</a><a href="http://verified.weibo.com/verify" target="_blank" class="wbicon"><em class="W_ico16 approve_co" title="新浪机构认证"></em></a> <a class="W_btn_b wbbtn" href="javascript:void(0);" action-data="uid=2257175873&fnick=热门微博&type=normal" action-type="follow"><span><em class="addicon">+</em>关注</span></a> </div>
+	<h1 class="hot_hot">
+ <span class="title_txt">热门主题</span>
+</h1>
+<div class="hot_tags">
+ <a href="/topic/823669?order=0&from=hotweiboright" class="hot_tag_box tag_pink" target="_blank">MH370坠毁无人生还</a> 
+ <a href="/topic/824827?order=0&from=hotweiboright" class="hot_tag_box tag_orange" target="_blank">追问真相@马航370</a> 
+ <a href="/topic/822578?order=0&from=hotweiboright" class="hot_tag_box tag_green" target="_blank">茶叶蛋</a> 
+ <a href="/topic/827509?order=0&from=hotweiboright" class="hot_tag_box tag_blue" target="_blank">杭州限牌</a> 
+ <a href="/topic/822575?order=0&from=hotweiboright" class="hot_tag_box tag_purple" target="_blank">平度纵火案告破</a> 
+ <a href="/topic/809914?order=0&from=hotweiboright" class="hot_tag_box tag_pink" target="_blank">两岸服贸协议引抗议</a> 
+ <a href="/topic/822425?order=0&from=hotweiboright" class="hot_tag_box tag_orange" target="_blank">杜汶泽炮轰大陆网民</a> 
+ <a href="/topic/822726?order=0&from=hotweiboright" class="hot_tag_box tag_green" target="_blank">美女检察长娜塔莉亚</a> 
+ <a href="/topic/813302?order=0&from=hotweiboright" class="hot_tag_box tag_blue" target="_blank">米歇尔访华</a> 
+ <a href="/topic/810080?order=0&from=hotweiboright" class="hot_tag_box tag_purple" target="_blank">我是歌手突围赛</a> 
+ </div>
+	<div id="pl_plaza_hotTopic"></div>
+	
+<!--小列表-->
+<div class="hot_otherlist" id="pl_plaza_suggest">
+	<ul>
+	<li><i class="hot_icon_checkintro"></i><a href="http://help.weibo.com/faq/q/695/13325" target="_blank">查看使用说明</a></li>
+	<li><i class="hot_icon_propose"></i>给<a href="javascript:void(0);" node-type="suggest" usercard="id=2257175873">@热门微博</a>提建议</li>
+	</ul>
+</div>
+<!--//小列表-->
+	</div>
+		</div>
+		</div>
+	</div>
+	<!--//主体部分--> 
+	<div class="hot_footerbox">
+<div class="global_footer S_bg4">
+	<div class="clearfix">
+	<dl class="list">
+		<dt>找找感兴趣的人</dt>
+		<dd>
+		<a href="http://weibo.com/pub/star?bottomnav=1&wvr=5">名人堂</a>
+		<a href="http://vip.weibo.com/home?bottomnav=1&wvr=5">微博会员</a>
+		</dd>
+		<dd><a href="http://club.weibo.com?bottomnav=1&wvr=5">微博达人</a></dd>
+		<dd>
+		<a href="http://weibo.com/pub/star/mediumlist.php?bottomnav=1&wvr=5">媒体</a>
+		<a href="http://weibo.com/pub/star/brandlist.php?bottomnav=1&wvr=5">企业</a>
+		<a href="http://weibo.com/pub/star/governmenthall.php?bottomnav=1&wvr=5">政府</a>
+		</dd>
+	</dl>
+	<dl class="list">
+		<dt>精彩内容</dt>
+		<dd>
+		<a href="http://topic.weibo.com/?bottomnav=1&wvr=5">微话题</a>　
+		<a href="http://data.weibo.com/top?bottomnav=1&wvr=5">风云榜</a>
+		</dd>
+		<dd><a href="http://talk.weibo.com?bottomnav=1&wvr=5">微访谈</a></dd>
+		<dd><a href="http://hot.weibo.com/?bottomnav=1&wvr=5&type=re&act=day">热门微博</a></dd>
+	</dl>
+	<dl class="list">
+		<dt>热门应用</dt>
+		<dd>
+		<a href="http://weiba.weibo.com?bottomnav=1&wvr=5">微吧</a>
+		<a href="http://gongyi.weibo.com/?bottomnav=1&wvr=5">微公益</a>
+		</dd>
+		<dd>
+		<a href="http://photo.weibo.com?bottomnav=1&wvr=5">相册</a>
+		<a href="http://music.weibo.com/t/index.php?bottomnav=1&wvr=5">微音乐</a>
+		</dd>
+		<dd>
+		<a href="http://vote.weibo.com?bottomnav=1&wvr=5">投票</a>
+		<a href="http://game.weibo.com?bottomnav=1&wvr=5">微游戏</a>
+		</dd>
+	</dl>
+	<dl class="list">
+		<dt>手机玩微博</dt>
+		<dd>
+		<a href="http://m.weibo.com/web/cellphone.php?bottomnav=1&wvr=5">WAP版</a>
+		<a href="http://m.weibo.com/web/cellphone.php?bottomnav=1&wvr=5#msg">短信彩信发微博</a></dd>
+		<dd>
+		<a href="http://m.weibo.com/web/cellphone.php?bottomnav=1&wvr=5#iphone">iPhone客户端</a>
+		<a href="http://m.weibo.com/web/cellphone.php?bottomnav=1&wvr=5#ipad">iPad客户端</a>
+		</dd>
+		<dd><a href="http://m.weibo.com/web/cellphone.php?bottomnav=1&wvr=5#android">Android客户端</a></dd>
+	</dl>
+	<dl class="list list_right">
+		<dt>认证&合作</dt>
+		<dd>
+		<a href="http://verified.weibo.com/verify?bottomnav=1&wvr=5">申请认证</a>
+		<a href="http://open.weibo.com/?bottomnav=1&wvr=5">开放平台</a>
+		</dd>
+		<dd>
+		<a href="http://e.weibo.com/introduce/introduce?bottomnav=1&wvr=5">企业微博</a>
+		<a href="http://open.weibo.com/connect?bottomnav=1&wvr=5">连接网站</a>
+		</dd>
+		<dd><a href="http://weibo.com/static/logo?bottomnav=1&wvr=5">微博标识</a></dd>
+	</dl>
+	</div>
+	<div class="other_link S_line2 clearfix">
+	<div class="help_link">
+		<p>
+		<a href="http://help.weibo.com/?refer=didao&bottomnav=1&wvr=5" class="S_func1"><i class="W_ico16 ico_weibo"></i>微博客服</a>
+		<a class="S_func1" href="http://weibo.com/zt/s?k=9286&bottomnav=1&wvr=5">意见反馈</a>
+		<a class="S_func1" href="http://open.weibo.com/?bottomnav=1&wvr=5">开放平台</a>
+		<a class="S_func1" href="http://hr.weibo.com?bottomnav=1&wvr=5">微博招聘</a>　
+		<a class="S_func1" href="http://news.sina.com.cn/guide/?bottomnav=1&wvr=5">新浪网导航</a>
+		<a class="S_func1" href="http://service.account.weibo.com/?bottomnav=1&wvr=5" target="_blank">社区管理中心</a>
+		<a class="S_func1" href="http://weibo.com/z/guize/gongyue.html?bottomnav=1&wvr=5" target="_blank">微博社区公约</a>
+		</p>
+		<p>客服电话：4000 960 960（个人） 4000 980 980（企业） （按当地市话标准计算）</p>
+		<p class="S_txt2">北京微梦创科网络技术有限公司&emsp;<a href="http://weibo.com/aj/static/jww.html" target="_blank">京网文[2011]0398-130号</a>&emsp;<a href="http://www.miibeian.gov.cn" target="_blank">京ICP证100780号</a></p>
+	</div>
+	<div class="copy">
+		<p class="S_txt2">Copyright &copy; 1996-2012 SINA</p>
+	</div>
+	</div>
+</div>
+</div>	</div>
+</div>
+<script type="text/javascript" charset="utf-8" src="http://js.t.sinajs.cn/open/analytics/js/suda.js?version=913a730269cc1c91"></script>
+<noscript><img width="0" height="0" src="http://beacon.sina.com.cn/a.gif?noScript" border="0" alt="" /></noscript>
+<script src="http://js.t.sinajs.cn/t4/yunying/js/plaza/tabGuide.js?version=913a730269cc1c91" type="text/javascript" ></script>
+<script src="http://js.t.sinajs.cn/t4/yunying/js/plaza/hotWeibo.js?version=913a730269cc1c91" type="text/javascript" ></script>
+</body>
+</html>
